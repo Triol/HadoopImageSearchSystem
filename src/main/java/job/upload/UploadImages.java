@@ -14,10 +14,16 @@ public class UploadImages {
         //HbaseClient.init();
         //System.out.println("Hbase initialized");
         File dir = new File(path);
+        File files[] = null;
         if(!dir.isDirectory()) {
-            System.err.println("Not a directory");
-        }else {
-            File[] files = dir.listFiles();
+            // System.err.println("Not a directory");
+            File f = new File(path);
+            files = new File[1];
+            files[0] = f;
+        }
+
+        {
+            files = dir.listFiles();
             int cnt = 0;
             for(File f : files) {
                 //ImageGray img = new ImageGray(f);
