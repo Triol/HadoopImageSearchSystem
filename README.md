@@ -22,10 +22,10 @@ Usages2: java -jar <program> UploadImage <Path(dir)>
 ## 部分功能效果展示
 ### 篡改查询(SearchForgeryJob)
   #### 原图
-  ![Alt](/result/)
+   ![Alt](/result_show/task02-original-pic_ori.bmp)
   #### 篡改图
-  
+   ![Alt](/result_show/pic_forgery.bmp)
   #### 对比结果
   ##### task02.txt
   ##### 对比图
-  
+  ![Alt](/result_show/task02-compare-pic_ori.png)
