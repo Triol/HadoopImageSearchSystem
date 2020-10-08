@@ -21,4 +21,11 @@ Usages2: java -jar <program> UploadImage <Path(dir)>
 
 ## 部分功能效果展示
 ### 篡改查询(SearchForgeryJob)
+  #### 原图
+  ![Alt](/result/)
+  #### 篡改图
+  
+  #### 对比结果
+  ##### task02.txt
+  ##### 对比图
   
