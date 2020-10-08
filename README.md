@@ -5,7 +5,7 @@
   create 'Images', 'Img_Info'
 ```
 ## 执行
-  ### 入口程序位于src/java/entrance/Main.java
+  ### 入口程序位于/src/main/java/entrance/Main.java
   
 ```
 Usages1: java -jar <program> <SearchType> <inputFile(file)> <outputPath(dir)> <taskName>
