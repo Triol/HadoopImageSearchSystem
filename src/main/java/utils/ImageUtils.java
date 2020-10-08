@@ -32,7 +32,7 @@ public class ImageUtils {
         Graphics g = ret.getGraphics();
         g.setColor(Color.RED);
         for(MyRectangle rec : rectangles) {
-            g.drawRect(rec.getL(), rec.getU(), rec.getR() - rec.getL() + 1, rec.getD() - rec.getU());
+            g.drawRect(rec.getL(), rec.getU(), rec.getR() - rec.getL(), rec.getD() - rec.getU());
         }
         return ret;
     }
@@ -41,7 +41,7 @@ public class ImageUtils {
 
         Graphics g = ret.getGraphics();
         g.setColor(Color.RED);
-        g.drawRect(rectangles.getL(), rectangles.getU(), rectangles.getR() - rectangles.getL() + 1, rectangles.getD() - rectangles.getU());
+        g.drawRect(rectangles.getL(), rectangles.getU(), rectangles.getR() - rectangles.getL(), rectangles.getD() - rectangles.getU());
         return ret;
     }
     public static Pair<Double, ArrayList<MyRectangle>> compareImage(String image1Base64, String image2Base64, int thread, int precision) throws Exception {
