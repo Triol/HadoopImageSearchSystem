@@ -1,11 +1,11 @@
 # HadoopImageSearchSystem
 
-##配置HBASE数据库
+## 配置HBASE数据库
 ```
   create 'Images', 'Img_Info'
 ```
-##执行
-  ###入口程序位于src/java/entrance/Main.java
+## 执行
+  ### 入口程序位于src/java/entrance/Main.java
   
 ```
 Usages1: java -jar <program> <SearchType> <inputFile(file)> <outputPath(dir)> <taskName>
