@@ -2,7 +2,7 @@
 
 ## 配置HBASE数据库
 ```
-  create 'Images', 'Img_Info'
+ hbase shell> create 'Images', 'Img_Info'
 ```
 ## 执行
   ### 入口程序位于/src/main/java/entrance/Main.java
