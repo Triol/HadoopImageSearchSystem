@@ -15,3 +15,10 @@ Usages1: java -jar <program> <SearchType> <inputFile(file)> <outputPath(dir)> <t
 <outputPath>: outputPath: must be a directory
 Usages2: java -jar <program> UploadImage <Path(dir)>
 ```
+## 测试数据集
+链接：https://pan.baidu.com/s/1q_VRJNFTSAWSqh4rQLH6vw 提取码：5pzy 
+
+
+## 部分功能效果展示
+### 篡改查询(SearchForgeryJob)
+  
